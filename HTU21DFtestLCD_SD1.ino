@@ -1,12 +1,10 @@
 /*************************************************** 
   This is an example code for the HTU21D-F Humidity & Temp Sensor + LCD screen
 
-  Provided by Mizuho Nita (Virginia Polytech Institute and State Univ.)
-  Please feel free to use, modify, and distribute
+   Provided by Mizuho Nita (Virginia Polytech Institute and State Univ.)
+  This is a compilation of several sketches for:
 
-  Designed specifically to work with:
-  
-  the HTU21D-F sensor from Adafruit
+  The HTU21D-F sensor from Adafruit
   (https://www.adafruit.com/products/1899)
 
   The LCD screen has a LCD backpack
@@ -15,8 +13,10 @@
   
    Adafruit Assembled Data Logging shield for Arduino
   https://www.adafruit.com/products/1141?gclid=CNrA1bL2r9ACFRZMDQod_6oBrQ
+  
+  You are free to use, modify, and/or distribute this sketch.
 
-  The LCD backpack and HTU21D-F use I2C to communicate, 2 pins are required to  
+  These displays use I2C to communicate, 2 pins (A5 and A4 on UNO) are required to  
   interface
 
     The circuit:
